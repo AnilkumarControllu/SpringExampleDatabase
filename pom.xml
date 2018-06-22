@@ -38,11 +38,13 @@
 	</dependency>
 	
 	<!-- Hibernate framework -->
-	<dependency>
-		<groupId>hibernate</groupId>
-		<artifactId>hibernate3</artifactId>
-		<version>3.2.3.GA</version>
-	</dependency>
+	<!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-core -->
+<dependency>
+    <groupId>org.hibernate</groupId>
+    <artifactId>hibernate-core</artifactId>
+    <version>4.1.4.Final</version>
+</dependency>
+
 	
 	
 	<!-- Hibernate library dependecy start -->
